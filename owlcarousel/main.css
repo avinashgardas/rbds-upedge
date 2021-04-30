@@ -157,12 +157,12 @@ p {
 }
 
 .discord {
-  margin: 100px 0;
+  /* margin: 100px 0; */
   text-align: center;
 }
 
 .discord img {
-  height: 128px;
+  height: 92px;
 }
 
 /* youtube */
