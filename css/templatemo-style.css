@@ -134,7 +134,7 @@ hr {
   font-size: 17px;
 }
 .templatemo-home .tag-line {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -164,6 +164,10 @@ hr {
 .tm-home-title {
   font-size: 50px;
   color: #eb5424;
+}
+.tm-home-title img {
+  height: 56px;
+  margin: 0px 8px 12px 8px;
 }
 .tm-home-subtitle {
   color: #eb5424;
@@ -589,7 +593,10 @@ input {
 
 @media screen and (max-width: 767px) {
   .tm-home-title {
-    font-size: 40px;
+    font-size: 36px;
+  }
+  .tm-home-title img {
+    height: 48px;
   }
 }
 
