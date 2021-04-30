@@ -104,13 +104,14 @@ p {
   -ms-flex-pack: center;
   justify-content: center; */
 
-  -webkit-box-pack: flex-start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: flex-start;
-  justify-content: flex-start;
+  -webkit-box-pack: flex-end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: flex-end;
+  justify-content: flex-end;
   text-align: left;
 
   background: #eb5424;
+  /* background: rgba(235, 84, 36, 1); */
   color: #ffffff;
   top: 0;
   right: 0;
@@ -134,18 +135,6 @@ p {
   transform: scale(1);
   cursor: pointer;
 }
-.owl-portfolio-overlay .fa {
-  border: 1px solid #666;
-  border-radius: 0;
-  color: #666;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
-  text-decoration: none;
-  margin-right: 6px;
-  margin-bottom: 10px;
-}
 
 .owl-portfolio-item-title-user {
   font-weight: bold;
@@ -154,6 +143,7 @@ p {
 .owl-portfolio-item-title-role {
   font-size: 15px;
   line-height: 1.5;
+  margin-bottom: 0;
 }
 
 .owl-portfolio-item-title-points {

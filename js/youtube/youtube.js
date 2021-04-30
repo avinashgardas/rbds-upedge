@@ -26,8 +26,7 @@ onYouTubeIframeAPIReady = function () {
       fs: 0, // Hide the full screen button
       rel: 0,
       enablejsapi: 1,
-      start: startSeconds,
-      end: endSeconds,
+      // setPlaybackQuality: "hd1080",
     },
     events: {
       onReady: function (e) {
@@ -35,6 +34,7 @@ onYouTubeIframeAPIReady = function () {
         e.target.playVideo();
       },
       onStateChange: function (e) {
+        player.setPlaybackQuality("hd1080");
         if (e.data === YT.PlayerState.PLAYING) {
           document.getElementById("youtubeEmbed").classList.add("loaded");
         }

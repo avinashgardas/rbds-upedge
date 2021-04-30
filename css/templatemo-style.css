@@ -129,7 +129,7 @@ hr {
 }
 
 .templatemo-home .container .caption {
-  margin-left: 28px;
+  margin-left: 130px;
   font-weight: 600;
   font-size: 17px;
 }
@@ -226,7 +226,7 @@ hr {
 /* START PORTFOLIO */
 .tm-portfolio {
   background: #f8f8f8;
-  padding-top: 80px;
+  padding-top: 50px;
 }
 .tm-portfolio .container {
   width: 100%;
@@ -243,6 +243,7 @@ hr {
   text-transform: uppercase;
 }
 .portfolio-item-title {
+  font-size: 20px;
   font-weight: bold;
   margin-top: 10px;
   text-transform: uppercase;
@@ -251,6 +252,7 @@ hr {
   overflow: hidden;
   margin: 0;
   position: relative;
+  height: 100%;
 }
 .portfolio-overlay {
   display: -webkit-box;
@@ -301,6 +303,9 @@ hr {
   margin-right: 6px;
   margin-bottom: 10px;
 }
+.portfolio-overlay p {
+  line-height: 20px;
+}
 
 /* FILTER CSS */
 .filter-wrapper {
@@ -344,6 +349,7 @@ hr {
 .iso-box {
   position: relative;
   min-height: 50px;
+  height: 214px;
   float: left;
   overflow: hidden;
   margin-bottom: 20px;
@@ -404,12 +410,12 @@ hr {
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
-  padding-top: 60px;
-  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 55px;
 }
 
 .tm-about p {
-  line-height: 22px;
+  line-height: 17px;
   font-weight: 600;
 }
 
@@ -421,7 +427,7 @@ hr {
 .about-question-mark {
   position: absolute;
   height: 300px;
-  left: 20%;
+  left: 23%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
@@ -446,15 +452,15 @@ hr {
 
 .about-sub-title {
   font-size: 22px;
-  padding: 20px 0 16px 0;
+  /* padding: 20px 0 16px 0; */
   color: #424242;
 }
 /* END ABOUT */
 
 /* START AREAS */
 .areas-col-1 {
-  max-height: 531px;
-  height: 531px;
+  /* max-height: 531px;
+  height: 531px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -465,14 +471,14 @@ hr {
   line-height: 26px;
   font-weight: 600;
   font-size: 20px;
-  padding: 0 0 24px 0;
+  padding: 32px 0 0px 0;
 }
 
 .areas-col-1 p:last-child {
-  line-height: 26px;
+  line-height: 22px;
   font-weight: 600;
   font-size: 20px;
-  padding: 24px 0 0 0;
+  padding: 24px 0 24px 0;
 }
 /* END AREAS */
 
