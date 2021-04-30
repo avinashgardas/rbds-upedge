@@ -129,7 +129,7 @@ hr {
 }
 
 .templatemo-home .container .caption {
-  margin-left: 130px;
+  /* margin-left: 130px; */
   font-weight: 600;
   font-size: 17px;
 }
@@ -140,7 +140,7 @@ hr {
 
 @media screen and (max-width: 1024px) {
   .templatemo-home .container .caption {
-    margin-left: 15px;
+    /* margin-left: 15px; */
     font-size: 16px;
   }
 }
