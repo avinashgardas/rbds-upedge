@@ -55,9 +55,18 @@ hr {
   color: #212227;
   font-weight: bold;
   font-size: 30px;
+
   line-height: 45px;
   padding: 10px 0 0 12px;
 }
+
+@media screen and (max-device-width: 767px) {
+  .navbar-default .navbar-brand {
+    line-height: 35px;
+    padding: 10px 12px;
+  }
+}
+
 .navbar-default .navbar-nav li a {
   color: #202020;
   font-size: 13px;
@@ -532,15 +541,15 @@ hr {
   font-size: 16px;
 }
 .tm-social .media .fa {
-  background: #ffffff;
+  /* background: #ffffff;  */
   border-radius: 2px;
-  color: #707070;
-  font-size: 30px;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  text-align: center;
-  margin-right: 20px;
+  color: #fff;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  /* line-height: 60px; */
+  /* text-align: center; */
+  /* margin-right: 20px; */
 }
 .tm-social-title {
   font-family: "Raleway", sans-serif;
@@ -650,3 +659,34 @@ input {
   }
 }
 /* END CLIENT */
+
+.contact-us-item {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.contact-us-link:hover .contact-us-item i {
+  text-decoration: none;
+}
+
+.contact-us-height {
+  height: 453px;
+}
+
+.contact-us-left {
+  height: 453px;
+}
+
+@media screen and (max-device-width: 767px) {
+  .contact-us-left {
+    /* height: auto; */
+  }
+  .discord-text {
+    text-align: center;
+  }
+
+  .contact-us-height {
+    height: 535px;
+  }
+}
