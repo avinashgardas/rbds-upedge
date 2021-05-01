@@ -110,7 +110,8 @@ p {
   justify-content: flex-end;
   text-align: left;
 
-  background: #eb5424;
+  background: linear-gradient(to top, rgba(235, 84, 36, 1), rgba(255, 0, 0, 0));
+  /* background: #eb5424; */
   /* background: rgba(235, 84, 36, 1); */
   color: #ffffff;
   top: 0;
